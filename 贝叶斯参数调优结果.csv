@@ -1,0 +1,16 @@
+﻿模型,参数,准确率,精确率,召回率,F1分数
+MultinomialNB,alpha=0.1,0.8495,0.8487,0.8535,0.8511
+MultinomialNB,alpha=0.5,0.8505,0.8499,0.8541,0.852
+MultinomialNB,alpha=1.0,0.8504,0.8503,0.8533,0.8518
+MultinomialNB,alpha=2.0,0.8517,0.8524,0.8535,0.8529
+MultinomialNB,alpha=5.0,0.8531,0.8563,0.8514,0.8538
+BernoulliNB,"alpha=0.1, binarize=0.0",0.8517,0.8555,0.8492,0.8523
+BernoulliNB,"alpha=0.1, binarize=None",0.8508,0.8485,0.8569,0.8527
+BernoulliNB,"alpha=1.0, binarize=0.0",0.8519,0.8558,0.8492,0.8525
+BernoulliNB,"alpha=1.0, binarize=None",0.8521,0.8498,0.8581,0.854
+BernoulliNB,"alpha=5.0, binarize=0.0",0.8518,0.8562,0.8484,0.8523
+GaussianNB,var_smoothing=1e-10,0.7946,0.8024,0.7859,0.7941
+GaussianNB,var_smoothing=1e-09,0.7948,0.8023,0.7867,0.7944
+GaussianNB,var_smoothing=1e-08,0.7953,0.8023,0.7879,0.795
+GaussianNB,var_smoothing=1e-07,0.7955,0.8022,0.7886,0.7954
+GaussianNB,var_smoothing=1e-06,0.7958,0.8023,0.7892,0.7957
